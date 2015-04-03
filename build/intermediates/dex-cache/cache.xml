@@ -9,11 +9,32 @@
         <dex dex="/home/dblinov/AndroidstudioProjects/android-basic-samples-master/BasicSamples/TypeANumber/build/intermediates/pre-dexed/debug/classes-e2199f3dbe9e9c2d5bff065415d18999b6dce45a.jar" />
     </item>
     <item
+        jar="/home/dblinov/AndroidstudioProjects/android-basic-samples-master/BasicSamples/TypeANumber/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="17f8750d5c0749e44dd7c54aa390d9c937803825">
+        <dex dex="/home/dblinov/AndroidstudioProjects/android-basic-samples-master/BasicSamples/TypeANumber/build/intermediates/pre-dexed/debug/classes-5003bf226557918a2c4e82c8e6e576c4b2e4886a.jar" />
+    </item>
+    <item
         jar="/home/dblinov/AndroidstudioProjects/android-basic-samples-master/BasicSamples/TypeANumber/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/classes.jar"
         jumboMode="false"
         revision="20.0.0"
         sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
         <dex dex="/home/dblinov/AndroidstudioProjects/android-basic-samples-master/BasicSamples/TypeANumber/build/intermediates/pre-dexed/debug/classes-6242e7ae7afcd60053b4b4f40299c12f8741c55f.jar" />
+    </item>
+    <item
+        jar="/home/dblinov/AndroidstudioProjects/android-basic-samples-master/BasicSamples/TypeANumber/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="9224bc4c54ba95147c7eabd874573763c07cb6be">
+        <dex dex="/home/dblinov/AndroidstudioProjects/android-basic-samples-master/BasicSamples/TypeANumber/build/intermediates/pre-dexed/debug/classes-590a00c70ed15f22faa41dd64138a34df3334543.jar" />
+    </item>
+    <item
+        jar="/home/dblinov/AndroidstudioProjects/android-basic-samples-master/BasicSamples/TypeANumber/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="e3d791b42eaa90416cd0b2d2e608092794a3baa4">
+        <dex dex="/home/dblinov/AndroidstudioProjects/android-basic-samples-master/BasicSamples/TypeANumber/build/intermediates/pre-dexed/debug/classes-7643b3056fd014c037a1f99ab6b56d0ce15ac153.jar" />
     </item>
     <item
         jar="/home/dblinov/AndroidstudioProjects/android-basic-samples-master/BasicSamples/TypeANumber/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.0.0/classes.jar"
@@ -23,11 +44,25 @@
         <dex dex="/home/dblinov/AndroidstudioProjects/android-basic-samples-master/BasicSamples/TypeANumber/build/intermediates/pre-dexed/debug/classes-ad918b58a8f9863c9f8c76a406dfb2ecf1d18dc6.jar" />
     </item>
     <item
+        jar="/home/dblinov/AndroidstudioProjects/android-basic-samples-master/BasicSamples/TypeANumber/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="a08d65794b844d8e7540bf9a33859bf3b2482d7f">
+        <dex dex="/home/dblinov/AndroidstudioProjects/android-basic-samples-master/BasicSamples/TypeANumber/build/intermediates/pre-dexed/debug/classes-b201a6b935ed823ed81eca3bcf3c008276bf7865.jar" />
+    </item>
+    <item
         jar="/home/dblinov/AndroidstudioProjects/android-basic-samples-master/BasicSamples/TypeANumber/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.0.0/classes.jar"
         jumboMode="false"
         revision="20.0.0"
         sha1="3033cc3a2c68dff3e5b646d6d084bdbdf7d00b25">
         <dex dex="/home/dblinov/AndroidstudioProjects/android-basic-samples-master/BasicSamples/TypeANumber/build/intermediates/pre-dexed/debug/classes-5f45cc006397f8dc7abc2b9cc1468e9e1560dc4f.jar" />
+    </item>
+    <item
+        jar="/home/dblinov/android-sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="/home/dblinov/AndroidstudioProjects/android-basic-samples-master/BasicSamples/TypeANumber/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-73256ef85f3d1b2ea57d30d6615f8e502d402f72.jar" />
     </item>
     <item
         jar="/home/dblinov/AndroidstudioProjects/android-basic-samples-master/BasicSamples/TypeANumber/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.0.0/classes.jar"
@@ -58,6 +93,20 @@
         <dex dex="/home/dblinov/AndroidstudioProjects/android-basic-samples-master/BasicSamples/TypeANumber/build/intermediates/pre-dexed/debug/classes-2bf3b350a54aaf7ee8e980485984bbd0b8734889.jar" />
     </item>
     <item
+        jar="/home/dblinov/AndroidstudioProjects/android-basic-samples-master/BasicSamples/TypeANumber/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="4c93d99d454c975536bbe3b42283eee847f03ea3">
+        <dex dex="/home/dblinov/AndroidstudioProjects/android-basic-samples-master/BasicSamples/TypeANumber/build/intermediates/pre-dexed/debug/classes-76ed85fd3580447755376fe125a48ff2c6531069.jar" />
+    </item>
+    <item
+        jar="/home/dblinov/AndroidstudioProjects/android-basic-samples-master/BasicSamples/TypeANumber/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="a96b762bde4139de855735f175ec4d17dca55a6d">
+        <dex dex="/home/dblinov/AndroidstudioProjects/android-basic-samples-master/BasicSamples/TypeANumber/build/intermediates/pre-dexed/debug/classes-56b2d0dd8601a4d643987765b7083ced4f424afb.jar" />
+    </item>
+    <item
         jar="/home/dblinov/AndroidstudioProjects/android-basic-samples-master/BasicSamples/TypeANumber/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.0.0/classes.jar"
         jumboMode="false"
         revision="20.0.0"
@@ -79,69 +128,6 @@
         <dex dex="/home/dblinov/AndroidstudioProjects/android-basic-samples-master/BasicSamples/TypeANumber/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-64b44b498a0fd53107583bfe956e9629bed1a524.jar" />
     </item>
     <item
-        jar="/home/dblinov/AndroidstudioProjects/android-basic-samples-master/BasicSamples/TypeANumber/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.0.0/classes.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="055783146ba9654a725442563be78cad303aad1f">
-        <dex dex="/home/dblinov/AndroidstudioProjects/android-basic-samples-master/BasicSamples/TypeANumber/build/intermediates/pre-dexed/debug/classes-c97965bb6bb884399529cb5bc30d4d31e3f696fe.jar" />
-    </item>
-    <item
-        jar="/home/dblinov/AndroidstudioProjects/android-basic-samples-master/BasicSamples/TypeANumber/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.0.0/classes.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="ef5f051e7308febe289dc93c67c5f32785b4260a">
-        <dex dex="/home/dblinov/AndroidstudioProjects/android-basic-samples-master/BasicSamples/TypeANumber/build/intermediates/pre-dexed/debug/classes-8e61e06810f1e42cf7bec7acd9e2760c4f3bfaff.jar" />
-    </item>
-    <item
-        jar="/home/dblinov/AndroidstudioProjects/android-basic-samples-master/BasicSamples/TypeANumber/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.0.0/classes.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="17f8750d5c0749e44dd7c54aa390d9c937803825">
-        <dex dex="/home/dblinov/AndroidstudioProjects/android-basic-samples-master/BasicSamples/TypeANumber/build/intermediates/pre-dexed/debug/classes-5003bf226557918a2c4e82c8e6e576c4b2e4886a.jar" />
-    </item>
-    <item
-        jar="/home/dblinov/AndroidstudioProjects/android-basic-samples-master/BasicSamples/TypeANumber/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.0.0/classes.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="9224bc4c54ba95147c7eabd874573763c07cb6be">
-        <dex dex="/home/dblinov/AndroidstudioProjects/android-basic-samples-master/BasicSamples/TypeANumber/build/intermediates/pre-dexed/debug/classes-590a00c70ed15f22faa41dd64138a34df3334543.jar" />
-    </item>
-    <item
-        jar="/home/dblinov/AndroidstudioProjects/android-basic-samples-master/BasicSamples/TypeANumber/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.0.0/classes.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="e3d791b42eaa90416cd0b2d2e608092794a3baa4">
-        <dex dex="/home/dblinov/AndroidstudioProjects/android-basic-samples-master/BasicSamples/TypeANumber/build/intermediates/pre-dexed/debug/classes-7643b3056fd014c037a1f99ab6b56d0ce15ac153.jar" />
-    </item>
-    <item
-        jar="/home/dblinov/AndroidstudioProjects/android-basic-samples-master/BasicSamples/TypeANumber/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.0.0/classes.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="a08d65794b844d8e7540bf9a33859bf3b2482d7f">
-        <dex dex="/home/dblinov/AndroidstudioProjects/android-basic-samples-master/BasicSamples/TypeANumber/build/intermediates/pre-dexed/debug/classes-b201a6b935ed823ed81eca3bcf3c008276bf7865.jar" />
-    </item>
-    <item
-        jar="/home/dblinov/android-sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
-        <dex dex="/home/dblinov/AndroidstudioProjects/android-basic-samples-master/BasicSamples/TypeANumber/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-73256ef85f3d1b2ea57d30d6615f8e502d402f72.jar" />
-    </item>
-    <item
-        jar="/home/dblinov/AndroidstudioProjects/android-basic-samples-master/BasicSamples/TypeANumber/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/classes.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="4c93d99d454c975536bbe3b42283eee847f03ea3">
-        <dex dex="/home/dblinov/AndroidstudioProjects/android-basic-samples-master/BasicSamples/TypeANumber/build/intermediates/pre-dexed/debug/classes-76ed85fd3580447755376fe125a48ff2c6531069.jar" />
-    </item>
-    <item
-        jar="/home/dblinov/AndroidstudioProjects/android-basic-samples-master/BasicSamples/TypeANumber/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.0.0/classes.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="a96b762bde4139de855735f175ec4d17dca55a6d">
-        <dex dex="/home/dblinov/AndroidstudioProjects/android-basic-samples-master/BasicSamples/TypeANumber/build/intermediates/pre-dexed/debug/classes-56b2d0dd8601a4d643987765b7083ced4f424afb.jar" />
-    </item>
-    <item
         jar="/home/dblinov/AndroidstudioProjects/android-basic-samples-master/BasicSamples/TypeANumber/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.0.0/classes.jar"
         jumboMode="false"
         revision="20.0.0"
@@ -152,7 +138,7 @@
         jar="/home/dblinov/AndroidstudioProjects/android-basic-samples-master/BasicSamples/TypeANumber/build/intermediates/exploded-aar/BasicSamples.libraries/BaseGameUtils/unspecified/classes.jar"
         jumboMode="false"
         revision="20.0.0"
-        sha1="f3d482432a0fe036d6f831e9ed51c9b9d85dbebd">
+        sha1="309d4b39b4a8f6026d757a2f2445b3ab75bd38b3">
         <dex dex="/home/dblinov/AndroidstudioProjects/android-basic-samples-master/BasicSamples/TypeANumber/build/intermediates/pre-dexed/debug/classes-eec4c011372d1120334683a2e35526b8e85e80c7.jar" />
     </item>
     <item
@@ -163,11 +149,25 @@
         <dex dex="/home/dblinov/AndroidstudioProjects/android-basic-samples-master/BasicSamples/TypeANumber/build/intermediates/pre-dexed/debug/classes-753313ce0da65e850f6635b2489368b382235b63.jar" />
     </item>
     <item
+        jar="/home/dblinov/AndroidstudioProjects/android-basic-samples-master/BasicSamples/TypeANumber/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="055783146ba9654a725442563be78cad303aad1f">
+        <dex dex="/home/dblinov/AndroidstudioProjects/android-basic-samples-master/BasicSamples/TypeANumber/build/intermediates/pre-dexed/debug/classes-c97965bb6bb884399529cb5bc30d4d31e3f696fe.jar" />
+    </item>
+    <item
         jar="/home/dblinov/AndroidstudioProjects/android-basic-samples-master/BasicSamples/TypeANumber/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.0.0/classes.jar"
         jumboMode="false"
         revision="20.0.0"
         sha1="fb04b12526b0073c7fb1ebb70c5842d82ee95596">
         <dex dex="/home/dblinov/AndroidstudioProjects/android-basic-samples-master/BasicSamples/TypeANumber/build/intermediates/pre-dexed/debug/classes-5b208c64e885622a8acb9cfcaef562ab590d17de.jar" />
+    </item>
+    <item
+        jar="/home/dblinov/AndroidstudioProjects/android-basic-samples-master/BasicSamples/TypeANumber/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="ef5f051e7308febe289dc93c67c5f32785b4260a">
+        <dex dex="/home/dblinov/AndroidstudioProjects/android-basic-samples-master/BasicSamples/TypeANumber/build/intermediates/pre-dexed/debug/classes-8e61e06810f1e42cf7bec7acd9e2760c4f3bfaff.jar" />
     </item>
 
 </items>

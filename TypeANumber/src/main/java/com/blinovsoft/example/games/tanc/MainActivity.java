@@ -41,8 +41,13 @@ import com.google.example.games.basegameutils.BaseGameUtils;
 
 import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;
+import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.impl.client.DefaultHttpClient;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.net.URI;
 
 /**
  * Our main activity for the game.
@@ -330,7 +335,8 @@ public class MainActivity extends FragmentActivity
 
     @Override
     public void onDropAchievementsButtonClicked() {
-        if (isSignedIn()) {
+        new GetterTask("http://blinov.kiev.ua/index.html").execute((Void) null);
+/*        if (isSignedIn()) {
             Player p = Games.Players.getCurrentPlayer(mGoogleApiClient);
             String accountName = Plus.AccountApi.getAccountName(mGoogleApiClient);
             //String accountName = p.getPlayerId();//getGamesClient().getCurrentAccountName();
@@ -340,6 +346,45 @@ public class MainActivity extends FragmentActivity
         } else {
                 BaseGameUtils.makeSimpleDialog(this, getString(R.string.drop_achievements_not_available)).show();
                 return;
+        }*/
+    }
+
+    private class GetterTask extends AsyncTask<Void, Void, Void> {
+        private String mUri;
+        private String line;
+
+        public GetterTask(String uri) {
+            mUri = uri;
+        }
+
+        @Override
+        protected Void doInBackground(Void... params) {
+            BufferedReader in;
+
+            try {
+                HttpClient httpclient = new DefaultHttpClient();
+
+                HttpGet request = new HttpGet();
+                URI website = new URI(mUri);
+                request.setURI(website);
+                HttpResponse response = httpclient.execute(request);
+                in = new BufferedReader(new InputStreamReader(
+                        response.getEntity().getContent()));
+
+                // NEW CODE
+                line = in.readLine();
+                // END OF NEW CODE
+
+            } catch (Exception e) {
+                Log.e(TAG, "Error in http connection " + e.toString());
+            }
+
+            return null;
+        }
+
+        @Override
+        protected void onPostExecute(Void result) {
+            mMainMenuFragment.setGreeting(line);
         }
     }
 
@@ -420,12 +465,11 @@ public class MainActivity extends FragmentActivity
             achievementsResult.setResultCallback(new ResultCallback<Achievements.LoadAchievementsResult>() {
                 @Override
                 public void onResult(Achievements.LoadAchievementsResult loadAchievementsResult) {
-                    if (loadAchievementsResult != null) {
-                        if (loadAchievementsResult.getStatus().getStatusCode() == GamesStatusCodes.STATUS_OK) {
-                            startActivityForResult(Games.Achievements.getAchievementsIntent(mGoogleApiClient), RC_UNUSED);
-                            return;
-                        }
+                if (loadAchievementsResult != null) {
+                    if (loadAchievementsResult.getStatus().getStatusCode() == GamesStatusCodes.STATUS_OK) {
+                        startActivityForResult(Games.Achievements.getAchievementsIntent(mGoogleApiClient), RC_UNUSED);
                     }
+                }
                 }
             });
         }
@@ -509,11 +553,8 @@ public class MainActivity extends FragmentActivity
         if (mSignInClicked || mAutoStartSignInFlow) {
             mAutoStartSignInFlow = false;
             mSignInClicked = false;
-            mResolvingConnectionFailure = true;
-            if (!BaseGameUtils.resolveConnectionFailure(this, mGoogleApiClient, connectionResult,
-                    RC_SIGN_IN, getString(R.string.signin_other_error))) {
-                mResolvingConnectionFailure = false;
-            }
+            mResolvingConnectionFailure = BaseGameUtils.resolveConnectionFailure(this, mGoogleApiClient, connectionResult,
+                    RC_SIGN_IN, getString(R.string.signin_other_error));
         }
 
         // Sign-in failed, so show sign-in button on main menu
